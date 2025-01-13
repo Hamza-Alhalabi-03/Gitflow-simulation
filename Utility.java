@@ -45,5 +45,11 @@ public class Utility {
         System.out.println("Reverse of 'hello': " + reverseString("hello"));
         
         System.out.println("Square of 5: " + square(5));
+
+        System.out.println("Factorial of 4: " + factorial(4));
+
+        System.out.println("Is 'radar' a palindrome? " + isPalindrome("radar"));
+
+        System.out.println("Maximum of 3, 7, and 5: " + maxOfThree(3, 7, 5));
     }
 }
