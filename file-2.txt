@@ -1,5 +1,0 @@
-Zaid added line one
-Michael added line two
-Zaid added line three
-
-Michael checked the file before the release 0.2
