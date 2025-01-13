@@ -4,8 +4,13 @@ public class Utility {
         return number % 2 == 0;
     }
 
+    public static int square(int number) {
+        return number * number;
+    }
+
     public static void main(String[] args) {
-        // Test isEven method
+
         System.out.println("Is 10 even? " + isEven(10));
+        System.out.println("Square of 5: " + square(5));
     }
 }
