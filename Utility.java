@@ -34,6 +34,10 @@ public class Utility {
         return str.equals(reversed);
     }
 
+    public static int maxOfThree(int a, int b, int c) {
+        return Math.max(a, Math.max(b, c));
+    }
+
     public static void main(String[] args) {
 
         System.out.println("Is 10 even? " + isEven(10));
