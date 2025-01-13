@@ -11,10 +11,16 @@ public class Utility {
         return new StringBuilder(str).reverse().toString();
     }
 
+    public static int square(int number) {
+        return number * number;
+    }
+
     public static void main(String[] args) {
-        // Test isEven method
+
         System.out.println("Is 10 even? " + isEven(10));
 
         System.out.println("Reverse of 'hello': " + reverseString("hello"));
+        
+        System.out.println("Square of 5: " + square(5));
     }
 }
